@@ -5,11 +5,11 @@ laravel-exception-extend
 
 ---
 
-- [使用前的准备](#1)
+- [使用前的准备（异常化表单验证）](#1)
 - [使用方法](#2)
 - [自定义验证消息](#3)
 - [特殊用法（直接抛出异常）](#4)
-- [实际项目中的应用节选，是时候开始引入异常化编程了！](#5)
+- [实际项目中的应用节选](#5)
 - [模型的异常化](#6)
 - [额外的支持 - 模型观察者（模型事件监听）](#7)
 - [模型事件的触发顺序](#8)
@@ -30,7 +30,7 @@ laravel-exception-extend
 ```php
 'aliases' => array(
     ...
-    'Validation' => 'FiveSay\LaravelValidation\Facade', // 异常化表单验证
+    'Validation' => 'FiveSay\ValidationFacade', // 异常化表单验证
 ),
 ```
 
