@@ -1,0 +1,20 @@
+{
+    "name": "five-say/laravel-exception-extend",
+    "description": "异常化编程拓展",
+    "keywords": ["laravel", "validation", "exception"],
+    "authors": [
+        {
+            "name": "FiveSay",
+            "email": "bcw.5@foxmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FiveSay\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
